@@ -271,7 +271,7 @@ def xchammer_dependencies():
     new_git_repository(
         name = "xchammer_tulsi_aspects",
         remote = "https://github.com/pinterest/tulsi.git",
-        commit = "c180639af0a20779610b4cbedd47f69849479366",
+        commit = "5f6998cb92f942333691f473d9e68a07740cb231",
         strip_prefix = "src/TulsiGenerator/Bazel",
         build_file_content = "exports_files(['tulsi'])",
     )
